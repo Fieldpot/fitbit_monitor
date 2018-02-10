@@ -1,0 +1,4 @@
+CLIENT_ID     = "xxxxx"
+CLIENT_SECRET = "xxxxx"
+ACCESS_TOKEN  = "xxxxx"
+REFRESH_TOKEN = "xxxxx"
