@@ -3,8 +3,9 @@ import pandas as pd
 import numpy as np
 from config import *
 
+# Access info
 authd_client = fitbit.Fitbit(CLIENT_ID, CLIENT_SECRET
-                             ,access_token=ACCESS_TOKEN, refresh_token=REFRESH_TOKEN)
+                             ,access_token=ACCESS_TOKEN, refresh_token=REFRESH_TOKEN, expires_in=EXPIRES_IN)
 
 DATE = "2018-02-01"
 
